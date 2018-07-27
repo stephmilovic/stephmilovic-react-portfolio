@@ -21,10 +21,10 @@ module.exports = {
                 exclude: /(node_modules)/,
             },
             {
-                test: /\.(png|jpg|gif|svg)$/,
+                test: /\.(png|jpg|gif|svg|ico)$/,
                 use: [
                     {
-                        loader: 'file-loader',
+                        loader: 'file-loader?name=[name].[ext]',
                         options: {
                             outputPath: commonPaths.imagesFolder,
                         },

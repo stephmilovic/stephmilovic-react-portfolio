@@ -27,7 +27,7 @@ module.exports = {
                     {
                         loader: 'sass-loader',
                         options: {
-                            includePaths: [reset, neat, bourbon],
+                            includePaths: [reset, neat, bourbon, commonPaths.sass],
                         },
                     },
                 ],
