@@ -1,0 +1,11 @@
+// This manifest partial imports all of the partials in the design folder
+// Gulp watches this file and compiles the Sass to CSS
+
+@import "random";
+@import "nav";
+@import "cards";
+@import "grid";
+@import "footer";
+@import "modal";
+@import "expander";
+

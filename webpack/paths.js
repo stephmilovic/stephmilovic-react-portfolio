@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
     root: path.resolve(__dirname, '../'),
     sass: path.resolve(__dirname, '../src/styles/base'),
+    sassMain: path.resolve(__dirname, '../src/main.scss'),
     outputPath: path.resolve(__dirname, '../', 'build'),
     entryPath: path.resolve(__dirname, '../', 'src/index.jsx'),
     templatePath: path.resolve(__dirname, '../', 'src/template.html'),

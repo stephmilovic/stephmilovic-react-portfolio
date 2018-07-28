@@ -1,0 +1,13 @@
+.grid {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  margin-right: -2em;
+  overflow: hidden;
+  .grid-box-wrap {
+    @include flex-basis(15em);
+    @include flex-grow(1);
+    margin: 0 2em 0 0;
+  }
+
+}

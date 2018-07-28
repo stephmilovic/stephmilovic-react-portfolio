@@ -1,0 +1,44 @@
+.cards {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  margin-right: -2em;
+  overflow: hidden;
+
+  .card {
+    @include flex-basis(15em);
+    @include flex-grow(1);
+    margin: 0 2em 0 0;
+  }
+  .card-copy p {
+  	margin-bottom: 1em;
+  }
+  
+  .card-image {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0.8em;
+    img {
+      width: 100%;
+    }
+  }
+  ul.techs {
+  		display: inline-block;
+  		margin-bottom: 1em;
+  	li {
+  		display: inline-block;
+  		color: $primary-color;
+  		border: 1px solid $primary-color;
+  		border-radius: 3px;
+  		padding: .2em .3em;
+  		margin: 0 .1em .3em 0;
+  		font-size: 0.9em;
+  	}
+  }
+  .cb {
+  	font-size: 0.8em;
+  	text-style: italic;
+  	color: $light-gray;
+  }
+}

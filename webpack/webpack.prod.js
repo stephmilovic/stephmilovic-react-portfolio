@@ -2,7 +2,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const commonPaths = require('./paths');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const bourbon = require('node-bourbon').includePaths;
-const neat = require('node-neat').includePaths;
+const neat = require('bourbon-neat').includePaths;
+const reset = require('node-reset-scss').includePath;
 
 module.exports = {
     mode: 'production',
@@ -22,14 +23,14 @@ module.exports = {
                         options: {
                             sourceMap: true,
                             modules: true,
-                            localIdentName: '[local]___[hash:base64:5]',
+                            localIdentName: '[local]',
                         },
                     },
                     'sass-loader',
                     {
                         loader: 'sass-loader',
                         options: {
-                            includePaths: [neat, bourbon],
+                            includePaths: [reset, bourbon, neat, commonPaths.sass],
                         },
                     },
                 ],

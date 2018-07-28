@@ -24,8 +24,39 @@ label {
   abbr {
     display: none;
   }
-}
+}$_text-inputs-list: (
+        "[type='color']",
+        "[type='date']",
+        "[type='datetime']",
+        "[type='datetime-local']",
+        "[type='email']",
+        "[type='month']",
+        "[type='number']",
+        "[type='password']",
+        "[type='search']",
+        "[type='tel']",
+        "[type='text']",
+        "[type='time']",
+        "[type='url']",
+        "[type='week']",
+        "input:not([type])",
+        "textarea",
+);
+@function _assign-inputs(
+  $inputs,
+  $pseudo: null
+) {
+  $list: ();
 
+  @each $input in $inputs {
+    $input: unquote($input);
+    $input: if($pseudo, $input + ":" + $pseudo, $input);
+    $list: append($list, $input, comma);
+  }
+
+  @return $list;
+}
+$all-text-inputs: _assign-inputs($_text-inputs-list);
 textarea,
 #{$all-text-inputs},
 select[multiple=multiple] {

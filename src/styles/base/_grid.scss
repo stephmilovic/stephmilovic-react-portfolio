@@ -1,7 +1,7 @@
 @import "grid-settings";
 
 .row {
-  @include my-outer-container;
+  @include outer-container;
   width: 100%;
 }
 

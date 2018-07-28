@@ -56,8 +56,9 @@
     font-size: 1.8em;
     margin-bottom: 0.5em;
 
-    @include media($medium-screen) {
+    @include media($medium-screen-up) {
       font-size: 2.4em;
+      font-weight: bold;
     }
   }
 
@@ -68,7 +69,7 @@
     line-height: 1.6em;
     margin-bottom: 0.9em;
 
-    @include media($medium-screen) {
+    @include media($medium-screen-up) {
       font-size: 1.8em;
     }
   }

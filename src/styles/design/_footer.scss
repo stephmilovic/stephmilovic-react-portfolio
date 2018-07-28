@@ -1,0 +1,9 @@
+footer#footer {
+	background: $footer-bg-color;
+	text-align: center;
+	padding: 1em 0;
+	p {
+		margin: 0;
+		color: $footer-font-color;
+	}
+}

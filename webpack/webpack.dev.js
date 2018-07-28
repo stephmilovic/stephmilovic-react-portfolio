@@ -1,6 +1,7 @@
 const commonPaths = require('./paths');
 const bourbon = require('node-bourbon').includePaths;
-const neat = require('node-neat').includePaths[1];
+// const bourbon = require('bourbon').includePaths;
+const neat = require('bourbon-neat').includePaths;
 const reset = require('node-reset-scss').includePath;
 
 module.exports = {
@@ -21,13 +22,13 @@ module.exports = {
                         options: {
                             sourceMap: true,
                             modules: true,
-                            localIdentName: '[local]___[hash:base64:5]',
+                            localIdentName: '[local]',
                         },
                     },
                     {
                         loader: 'sass-loader',
                         options: {
-                            includePaths: [reset, neat, bourbon, commonPaths.sass],
+                            includePaths: [reset, bourbon, neat, commonPaths.sass],
                         },
                     },
                 ],
