@@ -1,13 +1,13 @@
 .cards {
-  @include display(flex);
-  @include flex-wrap(wrap);
-  @include justify-content(space-between);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-right: -2em;
   overflow: hidden;
 
   .card {
-    @include flex-basis(15em);
-    @include flex-grow(1);
+    flex-basis: 15em;
+    flex-grow: 1;
     margin: 0 2em 0 0;
   }
   .card-copy p {

@@ -1,8 +1,6 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const commonPaths = require('./paths');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const bourbon = require('node-bourbon').includePaths;
-const neat = require('bourbon-neat').includePaths;
 const reset = require('node-reset-scss').includePath;
 
 module.exports = {
@@ -30,7 +28,7 @@ module.exports = {
                     {
                         loader: 'sass-loader',
                         options: {
-                            includePaths: [reset, bourbon, neat, commonPaths.sass],
+                            includePaths: [reset, commonPaths.sass],
                         },
                     },
                 ],
