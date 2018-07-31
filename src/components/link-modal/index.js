@@ -25,7 +25,7 @@ const LinkModal = props => {
                         View Screenshots
                     </a>
                     <div className="expander-content">
-                        {images.map((image, i) => <img key={image + i} src={require(`src/${image}`)} />)}
+                        {images.map((image, i) => <img key={image + i} src={image} />)}
                     </div>
                 </div>
                 <label className="modal-content-btn" htmlFor={`modal-toggle${cardNumber}`}>OK</label>

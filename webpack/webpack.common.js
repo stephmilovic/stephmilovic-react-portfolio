@@ -37,7 +37,7 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options: {
-                            outputPath: commonPaths.fontsFolder,
+                            outputPath: commonPaths.images,
                         },
                     },
                 ],

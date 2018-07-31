@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
-import HelloWorld from './components/hello-world';
 import Nav from './components/nav';
 import Work from './components/work';
 
@@ -18,7 +17,6 @@ class App extends Component {
                         <h1 id="logo">Steph Milovic</h1>
                         <Nav />
                         <Work />
-                        <HelloWorld title="Hello from React webpack!!!" />
                     </div>
                 </main>
             </div>
