@@ -6,7 +6,7 @@ const Extras = props => {
     const store = props.store;
     return (
         <section className="section extra">
-            <h2 id="scroll-link-2">Extracurriculars</h2>
+            <h2 id="scroll-extras">Extracurriculars</h2>
             <div className="grid">
                 {store.get('extras').map((extra, i) => (
                     <Article key={extra.title + i} {...extra} />

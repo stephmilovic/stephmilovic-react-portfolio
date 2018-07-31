@@ -5,7 +5,7 @@ const Contact = props => {
     const store = props.store;
     return (
         <section className="section contact">
-            <h2 id="scroll-link-4">Get In Touch</h2>
+            <h2 id="scroll-contact">Get In Touch</h2>
             <ul className="zocial contact-links">
                 {store.get('contact').map((contact, i) => (
                     <li key={contact.method+i}>

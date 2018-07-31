@@ -11,7 +11,7 @@ class App extends Component {
         return (
             <div className="type-system-rounded flexParent">
                 <main className="row flexGrow">
-                    <div>
+                    <div id="scroll-on-page-top">
                         <h1 id="logo">Steph Milovic</h1>
                         <Nav />
                         <article>

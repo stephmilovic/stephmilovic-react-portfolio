@@ -4,22 +4,22 @@ export default () => (
     <nav className="main-nav">
         <ul>
             <li>
-                <a className="scroll-on-page-link" href="#scroll-link-1">
+                <a className="scroll-on-page-link" href="#scroll-work">
           Work
                 </a>
             </li>
             <li>
-                <a className="scroll-on-page-link" href="#scroll-link-2">
+                <a className="scroll-on-page-link" href="#scroll-extras">
           Extracurriculars
                 </a>
             </li>
             <li>
-                <a className="scroll-on-page-link" href="#scroll-link-3">
+                <a className="scroll-on-page-link" href="#scroll-about">
           About Me
                 </a>
             </li>
             <li>
-                <a className="scroll-on-page-link" href="#scroll-link-4">
+                <a className="scroll-on-page-link" href="#scroll-contact">
           Get In Touch
                 </a>
             </li>
