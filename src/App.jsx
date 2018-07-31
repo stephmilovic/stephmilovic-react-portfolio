@@ -14,6 +14,7 @@ class App extends Component {
                 <main className="row flexGrow">
                     <div id="scroll-on-page-top">
                         <h1 id="logo">Steph Milovic</h1>
+                        <h3 id="logoSub">Senior Software Engineer</h3>
                         <Nav />
                         <article>
                             <TagCloud />

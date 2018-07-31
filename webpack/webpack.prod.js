@@ -2,7 +2,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const commonPaths = require('./paths');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const reset = require('node-reset-scss').includePath;
-
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
     mode: 'production',
     output: {
@@ -33,6 +33,13 @@ module.exports = {
                     },
                 ],
             },
+        ],
+    },
+    optimization: {
+        minimizer: [
+            new UglifyJsPlugin({
+                test: /\.js($|\?)/i,
+            }),
         ],
     },
     plugins: [
