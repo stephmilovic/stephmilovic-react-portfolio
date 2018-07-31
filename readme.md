@@ -31,7 +31,7 @@ webpack
 
 ### Installation
 
-1- Clone the boilerplate repo
+1- Clone the repo
 
 `git clone git@github.com:stephmilovic/stephmilovic-react-portfolio.git`
 
