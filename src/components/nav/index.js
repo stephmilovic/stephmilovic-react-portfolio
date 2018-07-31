@@ -4,6 +4,11 @@ export default () => (
     <nav className="main-nav">
         <ul>
             <li>
+                <a className="scroll-on-page-link" href="#scroll-skills">
+                    Skills
+                </a>
+            </li>
+            <li>
                 <a className="scroll-on-page-link" href="#scroll-work">
           Work
                 </a>

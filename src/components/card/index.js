@@ -34,6 +34,11 @@ export default props => {
                         <a href={siteGithub} target="_blank">GitHub</a>
                     </span>
                 </p>
+                <p display-if={siteLink && !siteGithub}>
+                    <span>
+                        <a href={siteLink} target="_blank">Live Site</a>
+                    </span>
+                </p>
             </div>
         </div>
     );

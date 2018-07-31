@@ -5,6 +5,7 @@ import Work from './components/work';
 import Extras from './components/extras';
 import About from './components/about';
 import Contact from './components/contact';
+import TagCloud from './components/tag-cloud';
 
 class App extends Component {
     render() {
@@ -15,6 +16,8 @@ class App extends Component {
                         <h1 id="logo">Steph Milovic</h1>
                         <Nav />
                         <article>
+                            <TagCloud />
+                            <hr />
                             <Work />
                             <hr />
                             <Extras />

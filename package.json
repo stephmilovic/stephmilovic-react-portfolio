@@ -42,7 +42,6 @@
   },
   "dependencies": {
     "lodash": "4.17.10",
-    "prop-types": "15.6.2",
     "react": "16.4.1",
     "react-dom": "16.4.1",
     "react-hot-loader": "4.3.3"
@@ -90,6 +89,7 @@
     "node-sass": "4.9.2",
     "prettier": "1.13.7",
     "pretty-quick": "1.6.0",
+    "prop-types": "^15.6.2",
     "recompose": "^0.28.0",
     "rxjs": "^6.2.2",
     "sass-loader": "^6.0.7",
