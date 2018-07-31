@@ -17,7 +17,7 @@ export default props => {
         <div className="card">
             <div className="card-image">
                 {/* WTF */}
-                <img src={require(`src/${featuredImage}`)} alt={name} />
+                <img src={require(`src/images/${featuredImage}`)} alt={name} />
             </div>
             <div className="card-header">
                 <h3>{name}</h3>

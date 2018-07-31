@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
 import Nav from './components/nav';
 import Work from './components/work';
+import Extras from './components/extras';
+import About from './components/about';
+import Contact from './components/contact';
 
 class App extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
-
     render() {
         return (
             <div className="type-system-rounded flexParent">
@@ -16,7 +14,16 @@ class App extends Component {
                     <div>
                         <h1 id="logo">Steph Milovic</h1>
                         <Nav />
-                        <Work />
+                        <article>
+                            <Work />
+                            <hr />
+                            <Extras />
+                            <hr />
+                            <About />
+                            <hr />
+                            <Contact />
+                        </article>
+                        <a className="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
                     </div>
                 </main>
             </div>
