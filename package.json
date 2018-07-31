@@ -1,17 +1,16 @@
 {
-  "name": "@HashemKhalifa/webpack-react-boilerplate",
+  "name": "@stephmilovic/stephmilovic-react-portfolio",
   "version": "1.0.0",
-  "description": "Boilerplate for react and webpack",
+  "description": "stephmilovic.com - Steph Milovic's Software Engineering Portfolio",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-serve --open",
     "build": "cross-env NODE_ENV=production webpack",
-    "format": "prettier --write 'packages/**/*.js'",
     "test": "jest --watchAll --coverage",
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,css,md}": [
+    "*.{js,jsx,css}": [
       "eslint --fix",
       "git add"
     ]
@@ -32,8 +31,8 @@
       "jsx"
     ]
   },
-  "repository": "https://github.com/HashemKhalifa/webpack-react-boilerplate",
-  "author": "HashemKhalifa",
+  "repository": "https://github.com/stephmilovic/stephmilovic-react-portfolio",
+  "author": "stephmilovic",
   "license": "ISC",
   "private": false,
   "engines": {
@@ -70,13 +69,11 @@
     "enzyme-adapter-react-16": "1.1.1",
     "eslint": "5.2.0",
     "eslint-config-airbnb": "17.0.0",
-    "eslint-config-prettier": "2.9.0",
     "eslint-loader": "2.1.0",
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jest": "21.18.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-prettier": "2.6.2",
-    "eslint-plugin-react": "7.10.0",
+    "eslint-plugin-react": "^7.10.0",
     "eslint-watch": "4.0.2",
     "file-loader": "1.1.11",
     "html-webpack-plugin": "3.2.0",
@@ -87,7 +84,6 @@
     "mini-css-extract-plugin": "0.4.1",
     "node-reset-scss": "^1.0.1",
     "node-sass": "4.9.2",
-    "prettier": "1.13.7",
     "pretty-quick": "1.6.0",
     "prop-types": "^15.6.2",
     "recompose": "^0.28.0",
