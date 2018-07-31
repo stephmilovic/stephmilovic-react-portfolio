@@ -45,6 +45,11 @@ module.exports = {
         ],
     },
     resolve: {
+        alias: {
+            components: commonPaths.components,
+            src: commonPaths.src,
+            images: commonPaths.images,
+        },
         extensions: ['*', '.js', '.jsx'],
     },
     plugins: [

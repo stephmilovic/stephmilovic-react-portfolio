@@ -3,6 +3,7 @@
   "plugins": [
     "@babel/plugin-transform-runtime",
     "react-hot-loader/babel",
+    "jsx-display-if",
     ["@babel/plugin-proposal-class-properties", { "loose": true }]
   ]
 }

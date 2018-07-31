@@ -46,12 +46,25 @@
     transition: background .15s linear;
     &:hover { background: $hover-link-color; }
   }
-  #modal-toggle,
+  #modal-toggle0,
   #modal-toggle1,
   #modal-toggle2,
   #modal-toggle3,
   #modal-toggle4,
-  #modal-toggle5 {
+  #modal-toggle5,
+  #modal-toggle6,
+  #modal-toggle7,
+  #modal-toggle8,
+  #modal-toggle9,
+  #modal-toggle10,
+  #modal-toggle11,
+  #modal-toggle12,
+  #modal-toggle13,
+  #modal-toggle14,
+  #modal-toggle15,
+  #modal-toggle16,
+  #modal-toggle17,
+  #modal-toggle18 {
     display: none;  
     &.active ~ .modal-backdrop,
     &:checked ~ .modal-backdrop {
