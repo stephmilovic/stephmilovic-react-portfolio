@@ -158,18 +158,6 @@ export default connect(
                 siteGithub: 'https://github.com/stephmilovic/BusinessToSchoolCPU/',
                 privateMsg: 'Please be patient, slow Heroku load time.',
             },
-            {
-                featuredImage: 'pp.png',
-                name: 'pliskovicparty.com',
-                summary: 'I got married on August 13, 2016. My visual designer wife, the beautiful Sarah Pliske, and I teamed up to design and develop our wedding website.',
-                description: 'I got married on August 13, 2016. My visual designer wife, the beautiful Sarah Pliske, and I teamed up to design and develop our wedding website.',
-                tags: ['Bourbon/Bourbon Neat', 'HTML5', 'CSS3', 'Sass', 'jQuery'],
-                images: [
-                    'screen-pp.png',
-                ],
-                siteLink: 'http://pliskovicparty.com/',
-                siteGithub: 'https://github.com/stephmilovic/wedding/',
-            },
             // {
             //     featuredImage: 'histeph.png',
             //     name: 'histeph.com',
@@ -251,7 +239,7 @@ export default connect(
                 }],
             },
         ],
-        about: 'Hi, I\'m Steph Milovic. I am a full-stack software engineer with 8 years of experience. I have a focus on JavaScript, Node.js, and Front-end Architecture. I\'ve spent the past year dabbling in DevOps, working with technologies like AWS, Jenkins, and Docker. I have a B.A. in Arts Technology from Illinois State University. I currently work at Craftsy/bluprint as a Senior Front-end Engineer.',
+        about: 'Hi, I\'m Steph Milovic. I am a full-stack software engineer with 9 years of experience. I have a focus on JavaScript, Node.js, and Front-end Architecture. I have a B.A. in Arts Technology from Illinois State University. I currently work at Elastic as a Senior Software Engineer on the SIEM team.',
         contact: [
             {
                 method: 'email',
@@ -260,7 +248,7 @@ export default connect(
             }, {
                 method: 'linkedin',
                 symbol: 'L',
-                link: 'https://www.linkedin.com/in/stephanie-milovic-8bab1a44',
+                link: 'https://www.linkedin.com/in/steph-milovic-8bab1a44/',
             }, {
                 method: 'github',
                 symbol: 'g',
